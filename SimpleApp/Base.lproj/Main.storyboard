@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="znj-0F-sNV">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SimpleApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kaC-40-bOO"/>
+                        <viewControllerLayoutGuide type="bottom" id="dND-yZ-Hg8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="... status goes here ..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JnG-on-MbY">
+                                <rect key="frame" x="0.0" y="251" width="375" height="408"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="price" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Duq-RF-reC">
+                                <rect key="frame" x="16" y="72" width="343" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ivH-r3-yeq">
+                                <rect key="frame" x="16" y="110" width="343" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="phone number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Eg1-NN-2Cc">
+                                <rect key="frame" x="16" y="148" width="343" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Duq-RF-reC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="1Tk-4m-T9g"/>
+                            <constraint firstAttribute="trailing" secondItem="JnG-on-MbY" secondAttribute="trailing" id="6sL-T7-BpN"/>
+                            <constraint firstItem="JnG-on-MbY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="6wK-vZ-8J8"/>
+                            <constraint firstItem="Duq-RF-reC" firstAttribute="top" secondItem="kaC-40-bOO" secondAttribute="bottom" constant="8" id="HKw-g0-Zew"/>
+                            <constraint firstItem="JnG-on-MbY" firstAttribute="top" secondItem="kaC-40-bOO" secondAttribute="bottom" constant="187" id="HqO-2K-BqI"/>
+                            <constraint firstItem="Duq-RF-reC" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="PQr-QC-RLd"/>
+                            <constraint firstItem="ivH-r3-yeq" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="aQO-1c-0Ke"/>
+                            <constraint firstItem="ivH-r3-yeq" firstAttribute="top" secondItem="Duq-RF-reC" secondAttribute="bottom" constant="8" id="bYj-kk-4Px"/>
+                            <constraint firstItem="Eg1-NN-2Cc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="bwk-jo-683"/>
+                            <constraint firstItem="dND-yZ-Hg8" firstAttribute="top" secondItem="JnG-on-MbY" secondAttribute="bottom" constant="8" id="g0Z-xY-1vQ"/>
+                            <constraint firstItem="ivH-r3-yeq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="gs3-FT-9cb"/>
+                            <constraint firstItem="JnG-on-MbY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="k07-to-H6Y"/>
+                            <constraint firstItem="Eg1-NN-2Cc" firstAttribute="top" secondItem="ivH-r3-yeq" secondAttribute="bottom" constant="8" id="m8m-G4-FX5"/>
+                            <constraint firstItem="Eg1-NN-2Cc" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="rdE-xM-Iwk"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="SEP-YT-2D6">
+                        <barButtonItem key="rightBarButtonItem" title="Pay!" id="oRq-F0-Xhx">
+                            <connections>
+                                <action selector="pay" destination="BYZ-38-t0r" id="dYk-cF-pyo"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="email" destination="ivH-r3-yeq" id="FvW-kB-b6s"/>
+                        <outlet property="label" destination="JnG-on-MbY" id="ZdL-mC-R8U"/>
+                        <outlet property="phoneNumber" destination="Eg1-NN-2Cc" id="9d0-Lx-qcy"/>
+                        <outlet property="price" destination="Duq-RF-reC" id="bts-hj-cbM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1055.2" y="118.29085457271366"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="lwu-1B-B6j">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="znj-0F-sNV" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="aRq-D1-tKm">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Ujc-Sq-5bO"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H2z-X8-iGZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="116" y="118.29085457271366"/>
+        </scene>
+    </scenes>
+</document>

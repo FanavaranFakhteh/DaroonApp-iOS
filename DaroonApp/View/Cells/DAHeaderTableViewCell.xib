@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="yekan_regular.ttf">
+            <string>IRANYekan</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="240" id="KGk-i7-Jjw" customClass="DAHeaderTableViewCell" customModule="DaroonApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="671" height="240"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="671" height="239.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="22z-XY-3xL" userLabel="Padding View">
+                        <rect key="frame" x="20" y="19" width="631" height="212.5"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YAK-Ia-lmD" userLabel="Top View">
+                                <rect key="frame" x="0.0" y="0.0" width="631" height="127.5"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oBG-AU-9m8">
+                                        <rect key="frame" x="0.0" y="0.0" width="631" height="127.5"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo (2).png" translatesAutoresizingMaskIntoConstraints="NO" id="WDy-gF-93n">
+                                                <rect key="frame" x="503.5" y="0.0" width="127.5" height="127.5"/>
+                                            </imageView>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tCA-LM-iO6">
+                                                <rect key="frame" x="0.0" y="0.0" width="488.5" height="64"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="daroonappp_text_blue.png" translatesAutoresizingMaskIntoConstraints="NO" id="hlk-fg-xhT">
+                                                        <rect key="frame" x="353.5" y="0.0" width="134.5" height="64"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="hlk-fg-xhT" secondAttribute="height" multiplier="2.1:1" id="Iht-9v-Hl2"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="hlk-fg-xhT" secondAttribute="trailing" id="JRQ-SZ-eS7"/>
+                                                    <constraint firstItem="hlk-fg-xhT" firstAttribute="top" secondItem="tCA-LM-iO6" secondAttribute="top" id="OrW-Kj-15l"/>
+                                                    <constraint firstAttribute="bottom" secondItem="hlk-fg-xhT" secondAttribute="bottom" id="xbK-m3-DOI"/>
+                                                </constraints>
+                                            </view>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.34999999999999998" translatesAutoresizingMaskIntoConstraints="NO" id="sW1-YN-XsF" customClass="DALabel" customModule="DaroonApp" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="74" width="488" height="53.5"/>
+                                                <fontDescription key="fontDescription" name="IRANYekan" family="IRANYekan" pointSize="17"/>
+                                                <color key="textColor" red="0.74504011869430542" green="0.74513071775436401" blue="0.74500936269760132" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.53511961287869525" green="1" blue="0.94242297975921885" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="sW1-YN-XsF" firstAttribute="trailing" secondItem="tCA-LM-iO6" secondAttribute="trailing" id="2Iu-ej-22Q"/>
+                                            <constraint firstItem="tCA-LM-iO6" firstAttribute="top" secondItem="oBG-AU-9m8" secondAttribute="top" id="3Gc-zi-pkD"/>
+                                            <constraint firstItem="tCA-LM-iO6" firstAttribute="leading" secondItem="oBG-AU-9m8" secondAttribute="leading" id="Ckg-mv-u7X"/>
+                                            <constraint firstItem="WDy-gF-93n" firstAttribute="top" secondItem="oBG-AU-9m8" secondAttribute="top" id="DYH-zc-hYg"/>
+                                            <constraint firstItem="tCA-LM-iO6" firstAttribute="height" secondItem="oBG-AU-9m8" secondAttribute="height" multiplier="0.5" id="Df8-3s-GaT"/>
+                                            <constraint firstAttribute="bottom" secondItem="WDy-gF-93n" secondAttribute="bottom" id="EUI-er-bNF"/>
+                                            <constraint firstAttribute="bottom" secondItem="sW1-YN-XsF" secondAttribute="bottom" id="TRF-vL-8oI"/>
+                                            <constraint firstItem="sW1-YN-XsF" firstAttribute="top" secondItem="tCA-LM-iO6" secondAttribute="bottom" constant="10" id="dR5-8J-9Uk"/>
+                                            <constraint firstItem="WDy-gF-93n" firstAttribute="width" secondItem="oBG-AU-9m8" secondAttribute="height" multiplier="1:1" id="jJy-5O-8yW"/>
+                                            <constraint firstItem="WDy-gF-93n" firstAttribute="leading" secondItem="tCA-LM-iO6" secondAttribute="trailing" constant="15" id="jUt-uZ-452"/>
+                                            <constraint firstAttribute="trailing" secondItem="WDy-gF-93n" secondAttribute="trailing" id="s1A-en-0KL"/>
+                                            <constraint firstItem="sW1-YN-XsF" firstAttribute="leading" secondItem="tCA-LM-iO6" secondAttribute="leading" id="wQf-06-gid"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.38364522350113894" green="0.37709109054636969" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="oBG-AU-9m8" secondAttribute="bottom" id="02T-Mn-HMj"/>
+                                    <constraint firstAttribute="trailing" secondItem="oBG-AU-9m8" secondAttribute="trailing" id="8h6-AZ-FoT"/>
+                                    <constraint firstItem="oBG-AU-9m8" firstAttribute="leading" secondItem="YAK-Ia-lmD" secondAttribute="leading" id="OKD-XK-11Q"/>
+                                    <constraint firstItem="oBG-AU-9m8" firstAttribute="top" secondItem="YAK-Ia-lmD" secondAttribute="top" id="sBl-4G-97W"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LMX-aE-7JK" userLabel="Bottom View">
+                                <rect key="frame" x="0.0" y="137.5" width="631" height="75"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="انتخاب روش پرداخت" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.34999999999999998" translatesAutoresizingMaskIntoConstraints="NO" id="b3m-p1-Cy4" customClass="DALabel" customModule="DaroonApp" customModuleProvider="target">
+                                        <rect key="frame" x="252" y="0.0" width="379" height="75"/>
+                                        <color key="backgroundColor" red="0.66152442893401009" green="0.25536392615288511" blue="0.46343306119582367" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="IRANYekan" family="IRANYekan" pointSize="18"/>
+                                        <color key="textColor" red="0.74504011869999998" green="0.74513071779999995" blue="0.74500936269999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ریال" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.34999999999999998" translatesAutoresizingMaskIntoConstraints="NO" id="RAY-zL-tPY" customClass="DALabel" customModule="DaroonApp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="63.5" height="75"/>
+                                        <fontDescription key="fontDescription" name="IRANYekan" family="IRANYekan" pointSize="18"/>
+                                        <color key="textColor" red="0.35914087295532227" green="0.5566067099571228" blue="0.79678481817245483" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1000" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.34999999999999998" translatesAutoresizingMaskIntoConstraints="NO" id="utp-6M-ESa" customClass="DALabel" customModule="DaroonApp" customModuleProvider="target">
+                                        <rect key="frame" x="71" y="0.0" width="171" height="75"/>
+                                        <fontDescription key="fontDescription" name="IRANYekan" family="IRANYekan" pointSize="18"/>
+                                        <color key="textColor" red="0.35914087300000003" green="0.55660670999999995" blue="0.79678481820000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.17576412686776988" green="0.69736403965967542" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="b3m-p1-Cy4" firstAttribute="top" secondItem="LMX-aE-7JK" secondAttribute="top" id="9mJ-IE-tsn"/>
+                                    <constraint firstAttribute="bottom" secondItem="b3m-p1-Cy4" secondAttribute="bottom" id="EXc-Vz-tFl"/>
+                                    <constraint firstAttribute="bottom" secondItem="utp-6M-ESa" secondAttribute="bottom" id="EpD-i0-mJD"/>
+                                    <constraint firstItem="RAY-zL-tPY" firstAttribute="width" secondItem="LMX-aE-7JK" secondAttribute="width" multiplier="0.1" id="IbP-BM-aYC"/>
+                                    <constraint firstItem="b3m-p1-Cy4" firstAttribute="leading" secondItem="utp-6M-ESa" secondAttribute="trailing" constant="10" id="J7b-TT-N6Y"/>
+                                    <constraint firstItem="RAY-zL-tPY" firstAttribute="top" secondItem="LMX-aE-7JK" secondAttribute="top" id="RQt-oa-GOp"/>
+                                    <constraint firstAttribute="bottom" secondItem="RAY-zL-tPY" secondAttribute="bottom" id="atO-Ap-a88"/>
+                                    <constraint firstItem="utp-6M-ESa" firstAttribute="top" secondItem="LMX-aE-7JK" secondAttribute="top" id="go8-bY-LwM"/>
+                                    <constraint firstItem="RAY-zL-tPY" firstAttribute="leading" secondItem="LMX-aE-7JK" secondAttribute="leading" id="hl5-jo-HCW"/>
+                                    <constraint firstItem="b3m-p1-Cy4" firstAttribute="width" secondItem="LMX-aE-7JK" secondAttribute="width" multiplier="0.6" id="mCQ-Hl-yg9"/>
+                                    <constraint firstAttribute="trailing" secondItem="b3m-p1-Cy4" secondAttribute="trailing" id="obE-af-FVJ"/>
+                                    <constraint firstItem="utp-6M-ESa" firstAttribute="leading" secondItem="RAY-zL-tPY" secondAttribute="trailing" constant="8" id="rEd-Li-tk3"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.52373493020304562" green="0.074964534863787721" blue="0.11559197751187766" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="LMX-aE-7JK" secondAttribute="bottom" id="31l-ga-l65"/>
+                            <constraint firstItem="LMX-aE-7JK" firstAttribute="top" secondItem="YAK-Ia-lmD" secondAttribute="bottom" constant="10" id="Jpt-0a-LLo"/>
+                            <constraint firstItem="YAK-Ia-lmD" firstAttribute="leading" secondItem="22z-XY-3xL" secondAttribute="leading" id="LKF-Sf-qeL"/>
+                            <constraint firstAttribute="trailing" secondItem="YAK-Ia-lmD" secondAttribute="trailing" id="Ma2-09-Ol6"/>
+                            <constraint firstAttribute="trailing" secondItem="LMX-aE-7JK" secondAttribute="trailing" id="ffw-fh-pXw"/>
+                            <constraint firstItem="YAK-Ia-lmD" firstAttribute="height" secondItem="22z-XY-3xL" secondAttribute="height" multiplier="0.6" id="mQF-ul-A1h"/>
+                            <constraint firstItem="LMX-aE-7JK" firstAttribute="leading" secondItem="22z-XY-3xL" secondAttribute="leading" id="wXI-JO-89k"/>
+                            <constraint firstItem="YAK-Ia-lmD" firstAttribute="top" secondItem="22z-XY-3xL" secondAttribute="top" id="zEi-7P-faK"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="1" green="0.55838259844499327" blue="0.071599116811100094" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="22z-XY-3xL" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="8" id="0dI-Fc-U4g"/>
+                    <constraint firstItem="22z-XY-3xL" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="SPk-cJ-Jig"/>
+                    <constraint firstAttribute="bottom" secondItem="22z-XY-3xL" secondAttribute="bottom" constant="8" id="wMf-20-LLp"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="22z-XY-3xL" secondAttribute="trailing" id="wNA-Cr-7lF"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="infoLabel" destination="sW1-YN-XsF" id="X8v-mn-EwQ"/>
+                <outlet property="priceLabel" destination="utp-6M-ESa" id="J6k-ng-O8E"/>
+            </connections>
+            <point key="canvasLocation" x="90.5" y="124"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="daroonappp_text_blue.png" width="422" height="205"/>
+        <image name="logo (2).png" width="1386" height="1396"/>
+    </resources>
+</document>

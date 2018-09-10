@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		042D81F9211EFB4C00F006B2 /* DAWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D81F8211EFB4C00F006B2 /* DAWebView.swift */; };
+		042D81FB211EFD5200F006B2 /* DAWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D81FA211EFD5200F006B2 /* DAWebViewController.swift */; };
+		0430D1572123FC6B00C876DD /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430D1562123FC6B00C876DD /* UIFont.swift */; };
+		0430D1592124091F00C876DD /* DALabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430D1582124091F00C876DD /* DALabel.swift */; };
+		0430D15B212409BD00C876DD /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430D15A212409BD00C876DD /* Device.swift */; };
+		0430D15D2124255400C876DD /* DAHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0430D15C2124255400C876DD /* DAHeaderView.xib */; };
+		0430D15F212435EA00C876DD /* DAHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0430D15E212435EA00C876DD /* DAHeaderView.swift */; };
+		0430D16221244F6000C876DD /* lock-padlock-symbol-for-protect.png in Resources */ = {isa = PBXBuildFile; fileRef = 0430D16121244F6000C876DD /* lock-padlock-symbol-for-protect.png */; };
+		04332F312123370500D2886A /* blue_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 04332F2A2123370500D2886A /* blue_back.png */; };
+		04332F332123370500D2886A /* daroonappp_text_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 04332F2C2123370500D2886A /* daroonappp_text_blue.png */; };
+		04332F342123370500D2886A /* logo (2).png in Resources */ = {isa = PBXBuildFile; fileRef = 04332F2D2123370500D2886A /* logo (2).png */; };
+		04332F352123370500D2886A /* shetab_ir.png in Resources */ = {isa = PBXBuildFile; fileRef = 04332F2E2123370500D2886A /* shetab_ir.png */; };
+		04332F362123370500D2886A /* yekan_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04332F2F2123370500D2886A /* yekan_regular.ttf */; };
+		04332F372123370500D2886A /* daroonapp_text.png in Resources */ = {isa = PBXBuildFile; fileRef = 04332F302123370500D2886A /* daroonapp_text.png */; };
+		04332F3B21233D1E00D2886A /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04332F3A21233D1E00D2886A /* GradientView.swift */; };
+		04332F3D21233F7300D2886A /* DATableViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04332F3C21233F7300D2886A /* DATableViewControllerDelegate.swift */; };
+		0446004321217A1300044C3E /* DaroonAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0446004221217A1300044C3E /* DaroonAppDelegate.swift */; };
+		0446004521217C4500044C3E /* DATransactionResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0446004421217C4500044C3E /* DATransactionResult.swift */; };
+		044600472121839D00044C3E /* DAWebViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044600462121839D00044C3E /* DAWebViewControllerDelegate.swift */; };
+		044D57B1212369A3000843CA /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044D57B0212369A3000843CA /* String.swift */; };
+		04A4339D2122BACF00E254A6 /* DATransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4339C2122BACF00E254A6 /* DATransaction.swift */; };
+		04A433A02122CDAA00E254A6 /* DAAPIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4339F2122CDAA00E254A6 /* DAAPIKey.swift */; };
+		04A433B92123122E00E254A6 /* HalfModalInteractiveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A433B42123122E00E254A6 /* HalfModalInteractiveTransition.swift */; };
+		04A433BA2123122E00E254A6 /* HalfModalTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A433B52123122E00E254A6 /* HalfModalTransitionAnimator.swift */; };
+		04A433BB2123122E00E254A6 /* HalfModalTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A433B62123122E00E254A6 /* HalfModalTransitioningDelegate.swift */; };
+		04A433BC2123122E00E254A6 /* HalfModalPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A433B82123122E00E254A6 /* HalfModalPresentationController.swift */; };
+		04A433C12123234F00E254A6 /* DAHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A433BF2123234F00E254A6 /* DAHeaderTableViewCell.swift */; };
+		04A433C22123234F00E254A6 /* DAHeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A433C02123234F00E254A6 /* DAHeaderTableViewCell.xib */; };
+		04A433C62123237000E254A6 /* DATableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A433C42123237000E254A6 /* DATableViewCell.swift */; };
+		04A433C72123237000E254A6 /* DATableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A433C52123237000E254A6 /* DATableViewCell.xib */; };
+		04A433C9212326E000E254A6 /* DATableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A433C8212326E000E254A6 /* DATableViewController.swift */; };
+		47252332211C16C500BCA8F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47252331211C16C500BCA8F1 /* AppDelegate.swift */; };
+		47252334211C16C500BCA8F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47252333211C16C500BCA8F1 /* ViewController.swift */; };
+		47252337211C16C500BCA8F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47252335211C16C500BCA8F1 /* Main.storyboard */; };
+		47252339211C16C700BCA8F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47252338211C16C700BCA8F1 /* Assets.xcassets */; };
+		4725233C211C16C700BCA8F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4725233A211C16C700BCA8F1 /* LaunchScreen.storyboard */; };
+		47252341211C16E300BCA8F1 /* DaroonApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47639DEA211B233B00771ABB /* DaroonApp.framework */; };
+		47252342211C16E300BCA8F1 /* DaroonApp.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 47639DEA211B233B00771ABB /* DaroonApp.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		47639DEF211B233B00771ABB /* DaroonApp.h in Headers */ = {isa = PBXBuildFile; fileRef = 47639DED211B233B00771ABB /* DaroonApp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47639DF6211B235900771ABB /* DaroonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47639DF5211B235900771ABB /* DaroonApp.swift */; };
+		47639DF8211B251B00771ABB /* DAPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47639DF7211B251B00771ABB /* DAPath.swift */; };
+		47639DFA211B329400771ABB /* DAPayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47639DF9211B329400771ABB /* DAPayment.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47252343211C16E300BCA8F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47639DE1211B233B00771ABB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47639DE9211B233B00771ABB;
+			remoteInfo = DaroonApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		47252345211C16E300BCA8F1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				47252342211C16E300BCA8F1 /* DaroonApp.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		042D81F8211EFB4C00F006B2 /* DAWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAWebView.swift; sourceTree = "<group>"; };
+		042D81FA211EFD5200F006B2 /* DAWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAWebViewController.swift; sourceTree = "<group>"; };
+		0430D1562123FC6B00C876DD /* UIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
+		0430D1582124091F00C876DD /* DALabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DALabel.swift; sourceTree = "<group>"; };
+		0430D15A212409BD00C876DD /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		0430D15C2124255400C876DD /* DAHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DAHeaderView.xib; sourceTree = "<group>"; };
+		0430D15E212435EA00C876DD /* DAHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAHeaderView.swift; sourceTree = "<group>"; };
+		0430D16121244F6000C876DD /* lock-padlock-symbol-for-protect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lock-padlock-symbol-for-protect.png"; sourceTree = "<group>"; };
+		04332F2A2123370500D2886A /* blue_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue_back.png; sourceTree = "<group>"; };
+		04332F2C2123370500D2886A /* daroonappp_text_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daroonappp_text_blue.png; sourceTree = "<group>"; };
+		04332F2D2123370500D2886A /* logo (2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo (2).png"; sourceTree = "<group>"; };
+		04332F2E2123370500D2886A /* shetab_ir.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shetab_ir.png; sourceTree = "<group>"; };
+		04332F2F2123370500D2886A /* yekan_regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = yekan_regular.ttf; sourceTree = "<group>"; };
+		04332F302123370500D2886A /* daroonapp_text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daroonapp_text.png; sourceTree = "<group>"; };
+		04332F3A21233D1E00D2886A /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		04332F3C21233F7300D2886A /* DATableViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DATableViewControllerDelegate.swift; sourceTree = "<group>"; };
+		0446004221217A1300044C3E /* DaroonAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaroonAppDelegate.swift; sourceTree = "<group>"; };
+		0446004421217C4500044C3E /* DATransactionResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DATransactionResult.swift; sourceTree = "<group>"; };
+		044600462121839D00044C3E /* DAWebViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAWebViewControllerDelegate.swift; sourceTree = "<group>"; };
+		044D57B0212369A3000843CA /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		04A4339C2122BACF00E254A6 /* DATransaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DATransaction.swift; sourceTree = "<group>"; };
+		04A4339F2122CDAA00E254A6 /* DAAPIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAAPIKey.swift; sourceTree = "<group>"; };
+		04A433B42123122E00E254A6 /* HalfModalInteractiveTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalfModalInteractiveTransition.swift; sourceTree = "<group>"; };
+		04A433B52123122E00E254A6 /* HalfModalTransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalfModalTransitionAnimator.swift; sourceTree = "<group>"; };
+		04A433B62123122E00E254A6 /* HalfModalTransitioningDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalfModalTransitioningDelegate.swift; sourceTree = "<group>"; };
+		04A433B82123122E00E254A6 /* HalfModalPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalfModalPresentationController.swift; sourceTree = "<group>"; };
+		04A433BF2123234F00E254A6 /* DAHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		04A433C02123234F00E254A6 /* DAHeaderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DAHeaderTableViewCell.xib; sourceTree = "<group>"; };
+		04A433C42123237000E254A6 /* DATableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DATableViewCell.swift; sourceTree = "<group>"; };
+		04A433C52123237000E254A6 /* DATableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DATableViewCell.xib; sourceTree = "<group>"; };
+		04A433C8212326E000E254A6 /* DATableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DATableViewController.swift; sourceTree = "<group>"; };
+		4725232F211C16C500BCA8F1 /* SimpleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47252331211C16C500BCA8F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		47252333211C16C500BCA8F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		47252336211C16C500BCA8F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47252338211C16C700BCA8F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4725233B211C16C700BCA8F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4725233D211C16C700BCA8F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47639DEA211B233B00771ABB /* DaroonApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DaroonApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47639DED211B233B00771ABB /* DaroonApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DaroonApp.h; sourceTree = "<group>"; };
+		47639DEE211B233B00771ABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47639DF5211B235900771ABB /* DaroonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaroonApp.swift; sourceTree = "<group>"; };
+		47639DF7211B251B00771ABB /* DAPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAPath.swift; sourceTree = "<group>"; };
+		47639DF9211B329400771ABB /* DAPayment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAPayment.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4725232C211C16C500BCA8F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47252341211C16E300BCA8F1 /* DaroonApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47639DE6211B233B00771ABB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0430D1552123FC5F00C876DD /* Extensions+Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0430D1562123FC6B00C876DD /* UIFont.swift */,
+				044D57B0212369A3000843CA /* String.swift */,
+				04332F3A21233D1E00D2886A /* GradientView.swift */,
+				04A433B22123122E00E254A6 /* HalfModal */,
+				0430D15A212409BD00C876DD /* Device.swift */,
+			);
+			path = "Extensions+Helpers";
+			sourceTree = "<group>";
+		};
+		04332F29212336F900D2886A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04332F2A2123370500D2886A /* blue_back.png */,
+				04332F302123370500D2886A /* daroonapp_text.png */,
+				0430D16121244F6000C876DD /* lock-padlock-symbol-for-protect.png */,
+				04332F2C2123370500D2886A /* daroonappp_text_blue.png */,
+				04332F2D2123370500D2886A /* logo (2).png */,
+				04332F2E2123370500D2886A /* shetab_ir.png */,
+				04332F2F2123370500D2886A /* yekan_regular.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		04A433982122B78E00E254A6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				47639DF9211B329400771ABB /* DAPayment.swift */,
+				04A4339C2122BACF00E254A6 /* DATransaction.swift */,
+				04A4339E2122CD8600E254A6 /* Enums */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04A433992122B79800E254A6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04A433C32123235600E254A6 /* Cells */,
+				042D81F8211EFB4C00F006B2 /* DAWebView.swift */,
+				0430D1582124091F00C876DD /* DALabel.swift */,
+				0430D15C2124255400C876DD /* DAHeaderView.xib */,
+				0430D15E212435EA00C876DD /* DAHeaderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04A4339E2122CD8600E254A6 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				04A4339F2122CDAA00E254A6 /* DAAPIKey.swift */,
+				47639DF7211B251B00771ABB /* DAPath.swift */,
+				0446004421217C4500044C3E /* DATransactionResult.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		04A433B22123122E00E254A6 /* HalfModal */ = {
+			isa = PBXGroup;
+			children = (
+				04A433B32123122E00E254A6 /* Transitioning */,
+				04A433B72123122E00E254A6 /* Presentation */,
+			);
+			path = HalfModal;
+			sourceTree = "<group>";
+		};
+		04A433B32123122E00E254A6 /* Transitioning */ = {
+			isa = PBXGroup;
+			children = (
+				04A433B42123122E00E254A6 /* HalfModalInteractiveTransition.swift */,
+				04A433B52123122E00E254A6 /* HalfModalTransitionAnimator.swift */,
+				04A433B62123122E00E254A6 /* HalfModalTransitioningDelegate.swift */,
+			);
+			path = Transitioning;
+			sourceTree = "<group>";
+		};
+		04A433B72123122E00E254A6 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				04A433B82123122E00E254A6 /* HalfModalPresentationController.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		04A433C32123235600E254A6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				04A433BF2123234F00E254A6 /* DAHeaderTableViewCell.swift */,
+				04A433C02123234F00E254A6 /* DAHeaderTableViewCell.xib */,
+				04A433C42123237000E254A6 /* DATableViewCell.swift */,
+				04A433C52123237000E254A6 /* DATableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		04A433CA212327CC00E254A6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				042D81FA211EFD5200F006B2 /* DAWebViewController.swift */,
+				04A433C8212326E000E254A6 /* DATableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		47252330211C16C500BCA8F1 /* SimpleApp */ = {
+			isa = PBXGroup;
+			children = (
+				47252331211C16C500BCA8F1 /* AppDelegate.swift */,
+				47252333211C16C500BCA8F1 /* ViewController.swift */,
+				47252335211C16C500BCA8F1 /* Main.storyboard */,
+				47252338211C16C700BCA8F1 /* Assets.xcassets */,
+				4725233A211C16C700BCA8F1 /* LaunchScreen.storyboard */,
+				4725233D211C16C700BCA8F1 /* Info.plist */,
+			);
+			path = SimpleApp;
+			sourceTree = "<group>";
+		};
+		47639DE0211B233B00771ABB = {
+			isa = PBXGroup;
+			children = (
+				47639DEC211B233B00771ABB /* DaroonApp */,
+				47252330211C16C500BCA8F1 /* SimpleApp */,
+				47639DEB211B233B00771ABB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47639DEB211B233B00771ABB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47639DEA211B233B00771ABB /* DaroonApp.framework */,
+				4725232F211C16C500BCA8F1 /* SimpleApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47639DEC211B233B00771ABB /* DaroonApp */ = {
+			isa = PBXGroup;
+			children = (
+				0430D1552123FC5F00C876DD /* Extensions+Helpers */,
+				04332F29212336F900D2886A /* Resources */,
+				47639DF5211B235900771ABB /* DaroonApp.swift */,
+				0446004221217A1300044C3E /* DaroonAppDelegate.swift */,
+				044600462121839D00044C3E /* DAWebViewControllerDelegate.swift */,
+				04332F3C21233F7300D2886A /* DATableViewControllerDelegate.swift */,
+				04A433CA212327CC00E254A6 /* Controller */,
+				04A433992122B79800E254A6 /* View */,
+				04A433982122B78E00E254A6 /* Model */,
+				47639DED211B233B00771ABB /* DaroonApp.h */,
+				47639DEE211B233B00771ABB /* Info.plist */,
+			);
+			path = DaroonApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		47639DE7211B233B00771ABB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47639DEF211B233B00771ABB /* DaroonApp.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4725232E211C16C500BCA8F1 /* SimpleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47252340211C16C700BCA8F1 /* Build configuration list for PBXNativeTarget "SimpleApp" */;
+			buildPhases = (
+				4725232B211C16C500BCA8F1 /* Sources */,
+				4725232C211C16C500BCA8F1 /* Frameworks */,
+				4725232D211C16C500BCA8F1 /* Resources */,
+				47252345211C16E300BCA8F1 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47252344211C16E300BCA8F1 /* PBXTargetDependency */,
+			);
+			name = SimpleApp;
+			productName = SimpleApp;
+			productReference = 4725232F211C16C500BCA8F1 /* SimpleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47639DE9211B233B00771ABB /* DaroonApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47639DF2211B233B00771ABB /* Build configuration list for PBXNativeTarget "DaroonApp" */;
+			buildPhases = (
+				47639DE5211B233B00771ABB /* Sources */,
+				47639DE6211B233B00771ABB /* Frameworks */,
+				47639DE7211B233B00771ABB /* Headers */,
+				47639DE8211B233B00771ABB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DaroonApp;
+			productName = DaroonApp;
+			productReference = 47639DEA211B233B00771ABB /* DaroonApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47639DE1211B233B00771ABB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Masoud Sheikh Hosseini";
+				TargetAttributes = {
+					4725232E211C16C500BCA8F1 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					47639DE9211B233B00771ABB = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+					};
+				};
+			};
+			buildConfigurationList = 47639DE4211B233B00771ABB /* Build configuration list for PBXProject "DaroonApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47639DE0211B233B00771ABB;
+			productRefGroup = 47639DEB211B233B00771ABB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47639DE9211B233B00771ABB /* DaroonApp */,
+				4725232E211C16C500BCA8F1 /* SimpleApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4725232D211C16C500BCA8F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4725233C211C16C700BCA8F1 /* LaunchScreen.storyboard in Resources */,
+				47252339211C16C700BCA8F1 /* Assets.xcassets in Resources */,
+				47252337211C16C500BCA8F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47639DE8211B233B00771ABB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A433C22123234F00E254A6 /* DAHeaderTableViewCell.xib in Resources */,
+				04A433C72123237000E254A6 /* DATableViewCell.xib in Resources */,
+				04332F372123370500D2886A /* daroonapp_text.png in Resources */,
+				0430D15D2124255400C876DD /* DAHeaderView.xib in Resources */,
+				04332F342123370500D2886A /* logo (2).png in Resources */,
+				04332F312123370500D2886A /* blue_back.png in Resources */,
+				04332F332123370500D2886A /* daroonappp_text_blue.png in Resources */,
+				0430D16221244F6000C876DD /* lock-padlock-symbol-for-protect.png in Resources */,
+				04332F362123370500D2886A /* yekan_regular.ttf in Resources */,
+				04332F352123370500D2886A /* shetab_ir.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4725232B211C16C500BCA8F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47252334211C16C500BCA8F1 /* ViewController.swift in Sources */,
+				47252332211C16C500BCA8F1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47639DE5211B233B00771ABB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04332F3B21233D1E00D2886A /* GradientView.swift in Sources */,
+				47639DF8211B251B00771ABB /* DAPath.swift in Sources */,
+				0446004521217C4500044C3E /* DATransactionResult.swift in Sources */,
+				04A433BC2123122E00E254A6 /* HalfModalPresentationController.swift in Sources */,
+				0430D15F212435EA00C876DD /* DAHeaderView.swift in Sources */,
+				47639DF6211B235900771ABB /* DaroonApp.swift in Sources */,
+				0430D1572123FC6B00C876DD /* UIFont.swift in Sources */,
+				0430D1592124091F00C876DD /* DALabel.swift in Sources */,
+				04A433C9212326E000E254A6 /* DATableViewController.swift in Sources */,
+				47639DFA211B329400771ABB /* DAPayment.swift in Sources */,
+				044D57B1212369A3000843CA /* String.swift in Sources */,
+				04A433A02122CDAA00E254A6 /* DAAPIKey.swift in Sources */,
+				042D81F9211EFB4C00F006B2 /* DAWebView.swift in Sources */,
+				04A433BB2123122E00E254A6 /* HalfModalTransitioningDelegate.swift in Sources */,
+				042D81FB211EFD5200F006B2 /* DAWebViewController.swift in Sources */,
+				0430D15B212409BD00C876DD /* Device.swift in Sources */,
+				04A433B92123122E00E254A6 /* HalfModalInteractiveTransition.swift in Sources */,
+				04332F3D21233F7300D2886A /* DATableViewControllerDelegate.swift in Sources */,
+				04A433BA2123122E00E254A6 /* HalfModalTransitionAnimator.swift in Sources */,
+				0446004321217A1300044C3E /* DaroonAppDelegate.swift in Sources */,
+				04A433C12123234F00E254A6 /* DAHeaderTableViewCell.swift in Sources */,
+				04A433C62123237000E254A6 /* DATableViewCell.swift in Sources */,
+				04A4339D2122BACF00E254A6 /* DATransaction.swift in Sources */,
+				044600472121839D00044C3E /* DAWebViewControllerDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47252344211C16E300BCA8F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47639DE9211B233B00771ABB /* DaroonApp */;
+			targetProxy = 47252343211C16E300BCA8F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47252335211C16C500BCA8F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47252336211C16C500BCA8F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4725233A211C16C700BCA8F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4725233B211C16C700BCA8F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4725233E211C16C700BCA8F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2V7T7T5CXZ;
+				INFOPLIST_FILE = SimpleApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzmasoud.DATest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4725233F211C16C700BCA8F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2V7T7T5CXZ;
+				INFOPLIST_FILE = SimpleApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzmasoud.DATest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		47639DF0211B233B00771ABB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		47639DF1211B233B00771ABB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		47639DF3211B233B00771ABB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2V7T7T5CXZ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DaroonApp/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zzmasoud.DaroonApp;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47639DF4211B233B00771ABB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2V7T7T5CXZ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DaroonApp/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zzmasoud.DaroonApp;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = NO;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47252340211C16C700BCA8F1 /* Build configuration list for PBXNativeTarget "SimpleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4725233E211C16C700BCA8F1 /* Debug */,
+				4725233F211C16C700BCA8F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47639DE4211B233B00771ABB /* Build configuration list for PBXProject "DaroonApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47639DF0211B233B00771ABB /* Debug */,
+				47639DF1211B233B00771ABB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47639DF2211B233B00771ABB /* Build configuration list for PBXNativeTarget "DaroonApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47639DF3211B233B00771ABB /* Debug */,
+				47639DF4211B233B00771ABB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47639DE1211B233B00771ABB /* Project object */;
+}

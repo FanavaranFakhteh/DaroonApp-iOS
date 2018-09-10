@@ -1,0 +1,11 @@
+framework module DaroonApp {
+  umbrella header "DaroonApp.h"
+
+  export *
+  module * { export * }
+}
+
+module DaroonApp.Swift {
+    header "DaroonApp-Swift.h"
+    requires objc
+}
