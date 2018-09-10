@@ -13,3 +13,8 @@ add to cartfile:
 ```
 github "FanavaranFakhteh/DaroonApp-iOS"
 ```
+
+# Manual
+download last released framework here:
+https://github.com/FanavaranFakhteh/DaroonApp-iOS/releases
+
