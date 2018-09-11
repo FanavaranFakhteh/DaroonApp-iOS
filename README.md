@@ -18,6 +18,11 @@ github "FanavaranFakhteh/DaroonApp-iOS"
 download last released framework here:
 https://github.com/FanavaranFakhteh/DaroonApp-iOS/releases
 
+# How to use
+DaroonApp code snippests is available in xcode (Quick Help)
+
+but here is a quick setup:
+
 
 1. import framework:
 ```
