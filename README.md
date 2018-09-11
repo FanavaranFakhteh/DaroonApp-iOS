@@ -54,12 +54,22 @@ DaroonApp.shared.pay(target: self, payment: payment) { (error) in
         }
 ```
 
+6. check transaction result with DaroonApp delegate:
+```
+func transactionFinished(result: DATransactionResult) {
+        //check result
+}
+```
+optional functions:
+
+
 check the last transaction , if exist:
 ```
 DaroonApp.shared.getLastTransaction { (error, object) in
   // do any logic here
 }
 ```
+
 
 check all transactions of user , if exist:
 ```
